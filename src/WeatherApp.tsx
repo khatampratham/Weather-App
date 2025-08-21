@@ -213,15 +213,7 @@ export default function WeatherApp() {
           animate={{ y: 0, opacity: 1 }}
           className="absolute bottom-0 left-1/2 w-48 -translate-x-1/2"
         >
-          <div className="mx-auto h-20 w-full rounded-2xl bg-indigo-600 shadow-2xl">
-            <div className="flex gap-1 p-2">
-              {[...Array(4)].map((_, i) => (
-                <div key={i} className="h-6 w-6 rounded bg-yellow-300/80 shadow-inner" />
-              ))}
-            </div>
-            <div className="mx-auto h-2 w-24 rounded-full bg-indigo-800" />
-          </div>
-          <div className="-mt-3 mx-auto h-6 w-40 rounded-xl bg-slate-200" />
+          
         </motion.div>
       </div>
     );
