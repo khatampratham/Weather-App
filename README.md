@@ -32,4 +32,4 @@ postcss<br>
 
 
 <H1>EXAMPLE OF LIVE WEBSITE</H1><br>
-https://weather-app-blush-one-31.vercel.app/
+(https://howstheweather.vercel.app/)
